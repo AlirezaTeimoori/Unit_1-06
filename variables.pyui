@@ -1,0 +1,86 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{6, 57}, {133, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "local_button_touch_up_inside",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Local Variable",
+          "uuid" : "73FD683F-23C0-4416-9E75-CE513F22EF77",
+          "class" : "Button",
+          "name" : "Local_variable_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{153, 153}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "EC447CA3-B3CD-447A-9F41-8688A435C7AC",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "global_answer_lable",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 153}, {133, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "global_button_touch_up_inside",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Global Variable",
+          "uuid" : "A7AE0917-F7B3-43CF-844E-D4317DF7362F",
+          "class" : "Button",
+          "name" : "Global_variable_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{153, 57}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "C8F76A6C-8078-44AF-99D0-887D58E707A2",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "local_answer_lable",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
